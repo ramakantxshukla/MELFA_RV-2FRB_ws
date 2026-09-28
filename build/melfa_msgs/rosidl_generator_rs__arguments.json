@@ -1,0 +1,48 @@
+{
+  "package_name": "melfa_msgs",
+  "output_dir": "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_generator_rs/melfa_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:srv/GpioConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:srv/ModeConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:msg/GpioState.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:msg/GpioCommand.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:msg/ControllerType.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs:msg/ControlMode.idl"
+  ],
+  "ros_interface_files": [
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/GpioConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/ModeConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioState.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioCommand.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControllerType.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControlMode.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/GpioConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/ModeConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioState.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioCommand.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControllerType.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControlMode.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/GpioConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/srv/ModeConfigure.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioState.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/GpioCommand.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControllerType.idl",
+    "/home/ram/melfa_ros2/build/melfa_msgs/rosidl_adapter/melfa_msgs/msg/ControlMode.idl"
+  ],
+  "package_version": "1.0.0"
+}

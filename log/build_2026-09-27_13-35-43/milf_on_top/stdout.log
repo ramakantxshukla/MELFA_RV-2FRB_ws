@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/milf_on_top/milf_on_top.egg-info
+writing ../../build/milf_on_top/milf_on_top.egg-info/PKG-INFO
+writing dependency_links to ../../build/milf_on_top/milf_on_top.egg-info/dependency_links.txt
+writing entry points to ../../build/milf_on_top/milf_on_top.egg-info/entry_points.txt
+writing requirements to ../../build/milf_on_top/milf_on_top.egg-info/requires.txt
+writing top-level names to ../../build/milf_on_top/milf_on_top.egg-info/top_level.txt
+writing manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+reading manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+writing manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+copying milf_on_top/__init__.py -> /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+copying milf_on_top/joint_publish.py -> /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+running install
+running install_lib
+creating /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+copying /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top/__init__.py -> /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+copying /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top/joint_publish.py -> /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+byte-compiling /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top/joint_publish.py to joint_publish.cpython-310.pyc
+running install_data
+creating /home/ram/melfa_ros2/install/milf_on_top/share/ament_index/resource_index/packages
+copying resource/milf_on_top -> /home/ram/melfa_ros2/install/milf_on_top/share/ament_index/resource_index/packages
+copying package.xml -> /home/ram/melfa_ros2/install/milf_on_top/share/milf_on_top
+running install_egg_info
+Copying ../../build/milf_on_top/milf_on_top.egg-info to /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joint_publisher script to /home/ram/melfa_ros2/install/milf_on_top/lib/milf_on_top
+writing list of installed files to '/home/ram/melfa_ros2/build/milf_on_top/install.log'

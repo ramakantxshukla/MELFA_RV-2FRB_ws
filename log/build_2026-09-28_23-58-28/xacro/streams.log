@@ -1,0 +1,84 @@
+[0.026s] Invoking command in '/home/ram/melfa_ros2/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake /home/ram/melfa_ros2/src/xacro -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ram/melfa_ros2/install/xacro
+[0.051s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.240s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.465s] -- Configuring done
+[0.473s] -- Generating done
+[0.476s] -- Build files have been written to: /home/ram/melfa_ros2/build/xacro
+[0.478s] Invoked command in '/home/ram/melfa_ros2/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake /home/ram/melfa_ros2/src/xacro -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ram/melfa_ros2/install/xacro
+[0.479s] Invoking command in '/home/ram/melfa_ros2/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --build /home/ram/melfa_ros2/build/xacro -- -j16 -l16
+[0.525s] Built target ament_cmake_python_copy_xacro_setup
+[0.525s] Built target ament_cmake_python_copy_xacro
+[0.688s] running install_scripts
+[0.692s] running egg_info
+[0.705s] writing xacro.egg-info/PKG-INFO
+[0.705s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[0.706s] writing entry points to xacro.egg-info/entry_points.txt
+[0.706s] writing top-level names to xacro.egg-info/top_level.txt
+[0.714s] /home/ram/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.714s] !!
+[0.714s] 
+[0.714s]         ********************************************************************************
+[0.714s]         Please avoid running ``setup.py`` directly.
+[0.714s]         Instead, use pypa/build, pypa/installer or other
+[0.715s]         standards-based tools.
+[0.715s] 
+[0.715s]         This deprecation is overdue, please update your project and remove deprecated
+[0.715s]         calls to avoid build errors in the future.
+[0.715s] 
+[0.715s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.715s]         ********************************************************************************
+[0.715s] 
+[0.715s] !!
+[0.715s]   self.initialize_options()
+[0.717s] running egg_info
+[0.743s] writing xacro.egg-info/PKG-INFO
+[0.743s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[0.744s] writing entry points to xacro.egg-info/entry_points.txt
+[0.744s] writing top-level names to xacro.egg-info/top_level.txt
+[0.746s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[0.748s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[0.772s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[0.772s] Built target ament_cmake_python_build_xacro_egg
+[0.772s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[0.787s] Installing xacro script to scripts
+[0.810s] Built target ament_cmake_python_build_xacro_scripts
+[0.818s] Invoked command in '/home/ram/melfa_ros2/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --build /home/ram/melfa_ros2/build/xacro -- -j16 -l16
+[0.827s] Invoking command in '/home/ram/melfa_ros2/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --install /home/ram/melfa_ros2/build/xacro
+[0.832s] -- Install configuration: "Release"
+[0.832s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/completion.bash
+[0.833s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/pythonpath.sh
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/pythonpath.dsv
+[0.833s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info/PKG-INFO
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info/top_level.txt
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info/SOURCES.txt
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info/dependency_links.txt
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro-2.1.1-py3.10.egg-info/entry_points.txt
+[0.833s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/lib/xacro/
+[0.833s] -- Installing: /home/ram/melfa_ros2/install/xacro/lib/xacro//xacro
+[0.833s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro
+[0.834s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro/__init__.py
+[0.834s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro/color.py
+[0.834s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro/cli.py
+[0.834s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro/substitution_args.py
+[0.834s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro/xmlutils.py
+[0.858s] Listing '/home/ram/melfa_ros2/install/xacro/local/lib/python3.10/dist-packages/xacro'...
+[0.861s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/bin/
+[0.861s] -- Installing: /home/ram/melfa_ros2/install/xacro/bin//xacro
+[0.861s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/ament_prefix_path.sh
+[0.862s] -- Installing: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/ament_prefix_path.dsv
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/path.sh
+[0.862s] -- Installing: /home/ram/melfa_ros2/install/xacro/share/xacro/environment/path.dsv
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/local_setup.bash
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/local_setup.sh
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/local_setup.zsh
+[0.862s] -- Installing: /home/ram/melfa_ros2/install/xacro/share/xacro/local_setup.dsv
+[0.862s] -- Installing: /home/ram/melfa_ros2/install/xacro/share/xacro/package.dsv
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/ament_index/resource_index/packages/xacro
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/cmake/xacro-extras.cmake
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/cmake/xacroConfig.cmake
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/cmake/xacroConfig-version.cmake
+[0.862s] -- Up-to-date: /home/ram/melfa_ros2/install/xacro/share/xacro/package.xml
+[0.864s] Invoked command in '/home/ram/melfa_ros2/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble /usr/bin/cmake --install /home/ram/melfa_ros2/build/xacro

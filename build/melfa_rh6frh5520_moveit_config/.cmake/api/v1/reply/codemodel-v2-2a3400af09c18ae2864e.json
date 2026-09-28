@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-129af440115a299c0ded.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "melfa_rh6frh5520_moveit_config",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "melfa_rh6frh5520_moveit_config_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-melfa_rh6frh5520_moveit_config_uninstall-Release-dc375153ebf2b0712a5d.json",
+					"name" : "melfa_rh6frh5520_moveit_config_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_keyboard_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_keyboard_input-Release-e68c83c29c84eea91cb7.json",
+					"name" : "servo_keyboard_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d8f7bd18a5818bfe1e90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ram/melfa_ros2/build/melfa_rh6frh5520_moveit_config",
+		"source" : "/home/ram/melfa_ros2/src/melfa_ros2_driver/melfa_moveit_config/melfa_rh6frh5520_moveit_config"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

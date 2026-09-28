@@ -1,0 +1,33 @@
+[0.923s] Invoking command in '/home/ram/melfa_ros2/src/milf_on_top': PYTHONPATH=/home/ram/melfa_ros2/build/milf_on_top/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/milf_on_top build --build-base /home/ram/melfa_ros2/build/milf_on_top/build install --record /home/ram/melfa_ros2/build/milf_on_top/install.log --install-scripts $base/lib/milf_on_top --single-version-externally-managed install_data
+[1.107s] running egg_info
+[1.119s] creating ../../build/milf_on_top/milf_on_top.egg-info
+[1.119s] writing ../../build/milf_on_top/milf_on_top.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/milf_on_top/milf_on_top.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/milf_on_top/milf_on_top.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/milf_on_top/milf_on_top.egg-info/requires.txt
+[1.120s] writing top-level names to ../../build/milf_on_top/milf_on_top.egg-info/top_level.txt
+[1.120s] writing manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+[1.146s] reading manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+[1.146s] writing manifest file '../../build/milf_on_top/milf_on_top.egg-info/SOURCES.txt'
+[1.146s] running build
+[1.147s] running build_py
+[1.147s] creating /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+[1.147s] copying milf_on_top/__init__.py -> /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+[1.147s] copying milf_on_top/joint_publish.py -> /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top
+[1.147s] running install
+[1.150s] running install_lib
+[1.162s] creating /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+[1.162s] copying /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top/__init__.py -> /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+[1.162s] copying /home/ram/melfa_ros2/build/milf_on_top/build/lib/milf_on_top/joint_publish.py -> /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top
+[1.162s] byte-compiling /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top/__init__.py to __init__.cpython-310.pyc
+[1.163s] byte-compiling /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top/joint_publish.py to joint_publish.cpython-310.pyc
+[1.163s] running install_data
+[1.163s] creating /home/ram/melfa_ros2/install/milf_on_top/share/ament_index/resource_index/packages
+[1.163s] copying resource/milf_on_top -> /home/ram/melfa_ros2/install/milf_on_top/share/ament_index/resource_index/packages
+[1.164s] copying package.xml -> /home/ram/melfa_ros2/install/milf_on_top/share/milf_on_top
+[1.164s] running install_egg_info
+[1.177s] Copying ../../build/milf_on_top/milf_on_top.egg-info to /home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages/milf_on_top-0.0.0-py3.10.egg-info
+[1.177s] running install_scripts
+[1.203s] Installing joint_publisher script to /home/ram/melfa_ros2/install/milf_on_top/lib/milf_on_top
+[1.203s] writing list of installed files to '/home/ram/melfa_ros2/build/milf_on_top/install.log'
+[1.218s] Invoked command in '/home/ram/melfa_ros2/src/milf_on_top' returned '0': PYTHONPATH=/home/ram/melfa_ros2/build/milf_on_top/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/melfa_ros2/install/milf_on_top/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/milf_on_top build --build-base /home/ram/melfa_ros2/build/milf_on_top/build install --record /home/ram/melfa_ros2/build/milf_on_top/install.log --install-scripts $base/lib/milf_on_top --single-version-externally-managed install_data

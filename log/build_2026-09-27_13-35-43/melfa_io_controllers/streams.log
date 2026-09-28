@@ -1,0 +1,81 @@
+[0.012s] Invoking command in '/home/ram/melfa_ros2/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram/melfa_ros2/src/melfa_ros2_driver/melfa_io_controllers -DCMAKE_INSTALL_PREFIX=/home/ram/melfa_ros2/install/melfa_io_controllers
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Found controller_interface: 2.54.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.847s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.854s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.066s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.069s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.087s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.096s] -- Looking for pthread.h
+[1.220s] -- Looking for pthread.h - found
+[1.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.334s] -- Found Threads: TRUE  
+[1.391s] -- Found melfa_msgs: 1.0.0 (/home/ram/melfa_ros2/install/melfa_msgs/share/melfa_msgs/cmake)
+[1.405s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.509s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.509s] -- Configured cppcheck include dirs: /home/ram/melfa_ros2/src/melfa_ros2_driver/melfa_io_controllers/include
+[1.509s] -- Configured cppcheck exclude dirs and/or files: 
+[1.510s] -- Added test 'lint_cmake' to check CMake code style
+[1.510s] -- Added test 'uncrustify' to check C / C++ code style
+[1.511s] -- Configured uncrustify additional arguments: 
+[1.511s] -- Added test 'xmllint' to check XML markup files
+[1.514s] -- Configuring done
+[1.522s] -- Generating done
+[1.525s] -- Build files have been written to: /home/ram/melfa_ros2/build/melfa_io_controllers
+[1.532s] Invoked command in '/home/ram/melfa_ros2/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ram/melfa_ros2/src/melfa_ros2_driver/melfa_io_controllers -DCMAKE_INSTALL_PREFIX=/home/ram/melfa_ros2/install/melfa_io_controllers
+[1.533s] Invoking command in '/home/ram/melfa_ros2/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram/melfa_ros2/build/melfa_io_controllers -- -j16 -l16
+[1.589s] [ 50%] [32mBuilding CXX object CMakeFiles/melfa_io_controllers.dir/src/melfa_io_controllers.cpp.o[0m
+[9.021s] [100%] [32m[1mLinking CXX shared library libmelfa_io_controllers.so[0m
+[9.433s] [100%] Built target melfa_io_controllers
+[9.445s] Invoked command in '/home/ram/melfa_ros2/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ram/melfa_ros2/build/melfa_io_controllers -- -j16 -l16
+[9.446s] Invoking command in '/home/ram/melfa_ros2/build/melfa_io_controllers': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram/melfa_ros2/build/melfa_io_controllers
+[9.454s] -- Install configuration: ""
+[9.454s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/melfa_io_controllers.xml
+[9.454s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/lib/libmelfa_io_controllers.so
+[9.459s] -- Set runtime path of "/home/ram/melfa_ros2/install/melfa_io_controllers/lib/libmelfa_io_controllers.so" to ""
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/include
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/include/melfa_io_controllers
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/include/melfa_io_controllers/melfa_io_controllers.hpp
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/include/melfa_io_controllers/visibility_control.h
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/config
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/config/io_limits.yaml
+[9.459s] -- Up-to-date: /home/ram/melfa_ros2/install/melfa_io_controllers/lib/libmelfa_io_controllers.so
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.sh
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/library_path.dsv
+[9.459s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/ament_index/resource_index/package_run_dependencies/melfa_io_controllers
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/ament_index/resource_index/parent_prefix_path/melfa_io_controllers
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.sh
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/ament_prefix_path.dsv
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.sh
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/environment/path.dsv
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.bash
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.sh
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.zsh
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/local_setup.dsv
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/package.dsv
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/ament_index/resource_index/packages/melfa_io_controllers
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/melfa_io_controllers
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig.cmake
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/cmake/melfa_io_controllersConfig-version.cmake
+[9.460s] -- Installing: /home/ram/melfa_ros2/install/melfa_io_controllers/share/melfa_io_controllers/package.xml
+[9.462s] Invoked command in '/home/ram/melfa_ros2/build/melfa_io_controllers' returned '0': AMENT_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ram/melfa_ros2/install/melfa_msgs:/home/ram/cognipilot/cranium/install/synapse_ros:/home/ram/cognipilot/cranium/install/synapse_gz:/home/ram/cognipilot/cranium/install/synapse_tinyframe:/home/ram/cognipilot/cranium/install/synapse_protobuf:/home/ram/cognipilot/cranium/install/corti:/home/ram/cognipilot/cranium/install/synapse_msgs:/home/ram/cognipilot/cranium/install/dream_world:/home/ram/cognipilot/cranium/install/cerebri_bringup:/home/ram/cognipilot/cranium/install/b3rb_simulator:/home/ram/cognipilot/cranium/install/b3rb_desktop:/home/ram/cognipilot/cranium/install/b3rb_rviz:/home/ram/cognipilot/cranium/install/b3rb_nav2:/home/ram/cognipilot/cranium/install/b3rb_gz_resource:/home/ram/cognipilot/cranium/install/b3rb_gz_bringup:/home/ram/cognipilot/cranium/install/b3rb_description:/home/ram/cognipilot/electrode/install/electrode:/home/ram/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/ram/melfa_ros2/install/melfa_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ram/melfa_ros2/install/melfa_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ram/melfa_ros2/build/melfa_io_controllers

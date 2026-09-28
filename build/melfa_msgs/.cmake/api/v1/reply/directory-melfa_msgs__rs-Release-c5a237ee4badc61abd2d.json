@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "melfa_msgs__rs",
+		"source" : "/home/ram/melfa_ros2/build/melfa_msgs/melfa_msgs__rs"
+	}
+}
