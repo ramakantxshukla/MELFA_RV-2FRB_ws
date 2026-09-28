@@ -1,2 +1,0 @@
-[console_scripts]
-joint_publisher = milf_on_top.joint_publish:main
